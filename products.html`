@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Portfolio | Shipyon Global Trade</title>
+    <meta name="description" content="Discover verified export-grade agricultural commodities and industrial minerals with direct container dispatch.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div class="custom-cursor" id="cursor"></div>
+
+    <header class="site-header" id="main-header">
+        <a href="index.html" class="logo">SHIPYON</a>
+        <nav class="nav-links">
+            <a href="index,html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="products.html" class="nav-link active">Products</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="contact.html" class="btn-luxury">Request Quote</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="height: 60vh; grid-template-columns: 1fr;">
+            <div class="hero-content" style="text-align: center; margin: 0 auto;">
+                <span class="eyebrow">The Sourcing Portfolio</span>
+                <h1 class="hero-title">Verified <span class="accent">Origins,</span><br>Global Standards.</h1>
+                <p class="hero-description" style="margin: 0 auto 3rem; text-align: center;">
+                    A curated selection of South India's most prestigious commodities, sourced with integrity and delivered with precision.
+                </p>
+            </div>
+        </section>
+
+        <section class="editorial-section">
+            <div style="text-align: center; margin-bottom: 6rem;">
+                <span class="eyebrow">Trade Verticals</span>
+                <h2 class="section-title">Export Categories</h2>
+            </div>
+
+            <div class="product-grid">
+                <!-- Category 1: Agro Commodities -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&auto=format&fit=crop&q=80" class="product-img" alt="Agro Commodities">
+                    <div class="product-info">
+                        <h3 style="color: var(--premium-gold);">Agro Commodities & Spices</h3>
+                        <p>Direct farm-gate procurement of Basmati rice, premium cardamom, and turmeric.</p>
+                        <a href="contact.html" class="btn-luxury" style="margin-top: 1.5rem; display: inline-block;">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Category 2: Processed Food -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1553279768-865429fa0078?w=800&auto=format&fit=crop&q=80" class="product-img" alt="Processed Food">
+                    <div class="product-info">
+                        <h3 style="color: var(--premium-gold);">Processed Food</h3>
+                        <p>Aseptic mango pulps, tomato concentrates, and IQF frozen vegetables.</p>
+                        <a href="contact.html" class="btn-luxury" style="margin-top: 1.5rem; display: inline-block;">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Category 3: Seafood -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=800&auto=format&fit=crop&q=80" class="product-img" alt="Seafood">
+                    <div class="product-info">
+                        <h3 style="color: var(--premium-gold);">Premium Seafood</h3>
+                        <p>BAP 4-Star certified Vannamei shrimp, calamari, and sashimi-grade tuna.</p>
+                        <a href="contact.html" class="btn-luxury" style="margin-top: 1.5rem; display: inline-block;">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Category 4: Textiles -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=800&auto=format&fit=crop&q=80" class="product-img" alt="Textiles">
+                    <div class="product-info">
+                        <h3 style="color: var(--premium-gold);">Textiles & Fabrics</h3>
+                        <p>High-tenacity combed cotton, indigo denims, and technical industrial weaves.</p>
+                        <a href="contact.html" class="btn-luxury" style="margin-top: 1.5rem; display: inline-block;">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Category 5: Engineering -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1537462715565-768597162820?w=800&auto=format&fit=crop&q=80" class="product-img" alt="Engineering">
+                    <div class="product-info">
+                        <h3 style="color: var(--premium-gold);">Industrial Castings</h3>
+                        <p>Precision ductile iron and structural steel castings for global infrastructure.</p>
+                        <a href="contact.html" class="btn-luxury" style="margin-top: 1.5rem; display: inline-block;">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo" style="color: var(--warm-ivory); margin-bottom: 2rem;">SHIPYON</div>
+                <p style="opacity: 0.6; max-width: 300px; font-size: 0.9rem;">Sourcing with purpose. Moving with confidence. A global trade engine for a modern world.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Our Quality</a>
+                <a href="services.html">Global Reach</a>
+            </div>
+            <div class="footer-col">
+                <h4>Business</h4>
+                <a href="products.html">Products</a>
+                <a href="services.html">Export Process</a>
+                <a href="contact.html">Partnership</a>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <a href="mailto:info@shipyon.in">info@shipyon.in</a>
+                <a href="tel:+919500690740">+91 95006 90740</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+        <div style="border-top: var(--border-forest); padding-top: 4rem; text-align: center; opacity: 0.4; font-size: 0.8rem;">
+            &copy; 2026 SHIPYON. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
